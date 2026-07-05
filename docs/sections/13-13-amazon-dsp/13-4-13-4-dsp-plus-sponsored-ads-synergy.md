@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** DSP and Sponsored Ads work best when budgets, audiences, and search coverage support each other.
 
-**Explain it to a fresh graduate:** A shopper may see a video, later search Amazon, click SP, then buy. Good reporting should respect that journey.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use full-funnel planning: DSP builds reach, SD retargets, SB shapes brand consideration, SP captures purchase intent.
-
-**Operator view:** DSP is for advanced audience strategy across display, video, audio, and streaming placements. It needs stronger planning than basic Sponsored Ads.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Define audience and funnel stage.

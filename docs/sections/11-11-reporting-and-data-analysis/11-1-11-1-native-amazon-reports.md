@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Key reports include Search Term, Targeting, Placement, Advertised Product, Purchased Product, Budget, and Bulk files.
 
-**Explain it to a fresh graduate:** Reports are where the account tells the truth. The console summary is useful, but reports reveal the details.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Teach where each report lives, what question it answers, and how often to use it.
-
-**Operator view:** Reports turn raw PPC activity into decisions. The best report explains what happened, why it happened, and what happens next.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Choose the right report for the question.

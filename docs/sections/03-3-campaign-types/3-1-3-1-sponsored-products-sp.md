@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** [[Sponsored Products]] promote individual listings. They are usually the main workhorse for Amazon PPC and often send clicks to the product detail page.
 
-**Explain it to a fresh graduate:** If Amazon ads were a team, [[Sponsored Products]] would be the reliable operations person who shows up every day with a spreadsheet.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Teach Auto, Manual Keyword, Manual Product Targeting, bidding strategies, and placements: Top of Search, Rest of Search, Product Pages.
-
-**Operator view:** [[Sponsored Products]] are usually the daily optimization core. They are closest to conversion and product-level demand capture.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm advertised products are eligible and in stock.
@@ -52,7 +46,7 @@ Amazon has several ad types. Each one solves a different job. New sellers should
 
 ### Sponsored Products
 
-Sponsored Products look like normal listings with a `Sponsored` label. They can appear in search results and product detail pages. They are the main direct-sales ad type and are usually the first campaign type beginners learn.
+Sponsored Products look like normal listings with a `Sponsored` label. They can appear in search results and product detail pages. They are the main direct-sales ad type and are usually the first campaign type you will learn.
 
 Auto campaigns let Amazon choose targets using four buckets: Close Match, Loose Match, Substitutes, and Complements. Manual campaigns let you choose keyword, ASIN, or category targets.
 

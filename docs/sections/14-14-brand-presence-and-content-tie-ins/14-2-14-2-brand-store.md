@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** A Brand Store is a branded landing space inside Amazon with pages for product lines, collections, and campaigns.
 
-**Explain it to a fresh graduate:** Think of it as a mini website inside Amazon. SB ads often send traffic there.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Build pages by shopper intent: best sellers, categories, use cases, bundles, seasonal offers.
-
-**Operator view:** Brand assets influence trust, conversion, and ad formats available to the account.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm Brand Registry or eligibility.

@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Portfolios group campaigns for reporting and budget caps.
 
-**Explain it to a fresh graduate:** A portfolio is like a department budget. It helps you see spend by product line, brand, season, or owner.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use portfolios for product lines, major ASIN groups, seasonal campaigns, or P&L ownership. Avoid creating too many tiny portfolios.
-
-**Operator view:** Budgets control how much opportunity a campaign can capture. A good budget protects cash while feeding proven performers.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Check whether the campaign runs out of budget.

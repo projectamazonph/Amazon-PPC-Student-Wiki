@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** This page introduces basic words like impressions, clicks, [[CTR]], [[CVR]], [[CPC]], [[ACOS]], [[TACOS]], [[ROAS]], campaign, ad group, keyword, and target.
 
-**Explain it to a fresh graduate:** Do not memorize everything at once. Learn the hierarchy first: campaign is the folder, ad group is the subfolder, target is what tells Amazon where to show the ad.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Link every term to [[Glossary]]. Add tiny examples: 1,000 impressions, 20 clicks, 2 orders means 2% [[CTR]] and 10% [[CVR]].
-
-**Operator view:** Use this page to understand the decision the topic supports, the data needed before acting, and the safest first move for a beginner.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Read the definition and linked glossary terms.
@@ -31,7 +25,7 @@ status: "draft-ready"
 - Make a small reversible change first when working in a live account.
 - Write down what changed and why.
 
-**Worked mini-example:** A junior operator reviews the page, opens the correct report, checks the required metric, makes one controlled change, and records it in the change log.
+**Worked mini-example:** Open the relevant report, check the key metric, make one small change, and note what you did and why.
 
 **Common beginner mistakes:**
 - Skipping the context and copying tactics blindly.
@@ -48,7 +42,7 @@ status: "draft-ready"
 ## Merged from Complete Data-Filled Guide
 ## Complete data-filled section notes
 
-Amazon PPC means pay-per-click advertising on Amazon. You pay when a shopper clicks the ad, not when the ad merely appears. For a beginner, imagine Amazon as a giant mall and PPC as paying for better shelf placement near where shoppers are already looking.
+Amazon PPC means pay-per-click advertising on Amazon. You pay when a shopper clicks the ad, not when the ad merely appears. Imagine Amazon as a giant mall and PPC as paying for better shelf placement near where shoppers are already looking.
 
 PPC feeds the Amazon growth loop: paid visibility can create sales; sales can improve ranking; better ranking can create more organic visibility; more reviews and stronger conversion can make future ads more efficient. This is why PPC is not only a traffic tool. It is also a learning tool and ranking accelerator.
 
@@ -90,7 +84,7 @@ A campaign is the main container. An ad group is a focused theme inside the camp
 
 ### Common beginner mistake
 
-New operators often think ads can fix a weak product page. Ads can bring traffic, but the listing must still convert. Poor images, high price, bad reviews, or missing Buy Box will wreck performance faster than any bid strategy can save it.
+A common early mistake is thinking ads can fix a weak product page. Ads can bring traffic, but the listing must still convert. Poor images, high price, bad reviews, or missing Buy Box will wreck performance faster than any bid strategy can save it.
 
 ### Metrics starter pack
 

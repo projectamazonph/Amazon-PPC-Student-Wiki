@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Seasonal planning prepares budgets for Prime Day, Q4, Black Friday, Cyber Monday, holidays, and category peaks.
 
-**Explain it to a fresh graduate:** During big events, normal budgets can collapse faster than a cheap umbrella in a typhoon.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Plan pre-event ramp, event-day scale, and post-event wind-down. Tie budget to inventory and promo calendar.
-
-**Operator view:** Budgets control how much opportunity a campaign can capture. A good budget protects cash while feeding proven performers.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Check whether the campaign runs out of budget.

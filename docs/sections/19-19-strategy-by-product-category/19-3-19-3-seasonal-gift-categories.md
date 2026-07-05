@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Seasonal products require early preparation, aggressive event pacing, and fast post-season wind-down.
 
-**Explain it to a fresh graduate:** Timing matters. If you optimize after the season, congratulations, you are now ready for last year.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Plan keywords, budgets, deals, inventory, creative, and reporting before the demand spike.
-
-**Operator view:** Seasonal planning prevents last-minute budget chaos and inventory-aware mistakes.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Identify event dates and lead-in period.

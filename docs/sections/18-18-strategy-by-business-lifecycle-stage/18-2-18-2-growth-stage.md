@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Growth stage focuses on scaling proven winners and expanding coverage.
 
-**Explain it to a fresh graduate:** Once the account knows what works, spend more where evidence is strong.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Increase budgets, expand exact winners, test SB/SD, add competitor targeting, and monitor [[TACOS]].
-
-**Operator view:** Use this page to understand the decision the topic supports, the data needed before acting, and the safest first move for a beginner.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Read the definition and linked glossary terms.
@@ -31,7 +25,7 @@ status: "draft-ready"
 - Make a small reversible change first when working in a live account.
 - Write down what changed and why.
 
-**Worked mini-example:** A junior operator reviews the page, opens the correct report, checks the required metric, makes one controlled change, and records it in the change log.
+**Worked mini-example:** Open the relevant report, check the key metric, make one small change, and note what you did and why.
 
 **Common beginner mistakes:**
 - Skipping the context and copying tactics blindly.

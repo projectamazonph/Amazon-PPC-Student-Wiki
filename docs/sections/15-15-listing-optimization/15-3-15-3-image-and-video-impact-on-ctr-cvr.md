@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Main images affect click-through. Secondary images and videos affect conversion.
 
-**Explain it to a fresh graduate:** A great ad cannot rescue a confusing main image. The shopper scrolls fast and judges faster.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use image testing, competitor comparison, lifestyle images, infographics, and video where available.
-
-**Operator view:** Use metrics to diagnose performance before touching bids or budgets. Metrics are symptoms first, decisions second.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Check the date range and confirm enough data exists.

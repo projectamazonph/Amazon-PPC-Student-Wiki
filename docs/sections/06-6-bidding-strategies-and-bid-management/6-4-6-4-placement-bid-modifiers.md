@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Placement modifiers increase bids for Top of Search or Product Pages placements.
 
-**Explain it to a fresh graduate:** Top of Search can convert well, but it can also get expensive. Treat modifiers like seasoning. Too much and the whole dish becomes chaos.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Increase modifiers only when placement data proves better performance and the campaign has enough budget.
-
-**Operator view:** Bids control how aggressively you enter auctions. Bid changes should follow evidence, not mood, caffeine, or panic.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm the target [[ACOS]] or [[ROAS]].

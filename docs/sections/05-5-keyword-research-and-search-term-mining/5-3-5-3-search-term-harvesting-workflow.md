@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Harvesting means moving search terms that prove performance into stronger manual control, usually exact match.
 
-**Explain it to a fresh graduate:** If a search term makes sales, promote it. If it wastes spend, negate it. That is the heartbeat of PPC operations.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use rules such as: promote terms with orders and acceptable [[ACOS]]; negate terms with enough clicks and zero sales; review before applying.
-
-**Operator view:** Keywords and search terms reveal shopper language. Your job is to separate discovery from control.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Collect seed keywords from listings, competitors, autocomplete, tools, and reports.
@@ -48,7 +42,7 @@ status: "draft-ready"
 ## Merged from Complete Data-Filled Guide
 ## Complete data-filled section notes
 
-Keyword research is how you learn the language customers use. A beginner should not guess forever. Start with common-sense terms, then replace guesses with real search term data.
+Keyword research is how you learn the language customers use. Don't guess forever. Start with common-sense terms, then replace guesses with real search term data.
 
 ### Research methods
 

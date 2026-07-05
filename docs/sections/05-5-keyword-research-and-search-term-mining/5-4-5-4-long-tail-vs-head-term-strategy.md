@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Head terms are short and high-volume. Long-tail terms are longer, more specific, and often cheaper or more conversion-friendly.
 
-**Explain it to a fresh graduate:** 'Shoes' is a head term. 'women waterproof hiking shoes size 8' is long-tail. The second tells you much more about buyer intent.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Bid more carefully on head terms. Use long-tail terms for efficient scaling and cleaner search intent.
-
-**Operator view:** Use this page to understand the decision the topic supports, the data needed before acting, and the safest first move for a beginner.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Read the definition and linked glossary terms.
@@ -31,7 +25,7 @@ status: "draft-ready"
 - Make a small reversible change first when working in a live account.
 - Write down what changed and why.
 
-**Worked mini-example:** A junior operator reviews the page, opens the correct report, checks the required metric, makes one controlled change, and records it in the change log.
+**Worked mini-example:** Open the relevant report, check the key metric, make one small change, and note what you did and why.
 
 **Common beginner mistakes:**
 - Skipping the context and copying tactics blindly.
@@ -48,7 +42,7 @@ status: "draft-ready"
 ## Merged from Complete Data-Filled Guide
 ## Complete data-filled section notes
 
-Keyword research is how you learn the language customers use. A beginner should not guess forever. Start with common-sense terms, then replace guesses with real search term data.
+Keyword research is how you learn the language customers use. Don't guess forever. Start with common-sense terms, then replace guesses with real search term data.
 
 ### Research methods
 

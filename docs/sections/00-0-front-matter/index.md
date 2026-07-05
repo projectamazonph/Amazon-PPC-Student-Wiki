@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 0. Front Matter
 
-This cluster contains 3 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 3 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 ## Pages in this section
 
@@ -22,7 +22,7 @@ This cluster contains 3 wiki page entries. Read it as a mini-module: learn the c
 ## Merged from Complete Data-Filled Guide
 ## Merged beginner guide content
 
-This wiki is the operating manual for learning Amazon PPC from zero. It is written for fresh graduates, virtual assistants, junior strategists, brand owners, and agency teams. A new learner should start with [[1. Foundations & Fundamentals]], then move through [[2. Account & Campaign Architecture]], [[3. Campaign Types]], and [[4. Targeting & Match Types]]. Operators who need a quick win should jump to [[9. Negative Keywords & Negation Strategy]] because wasted spend is often the fastest thing to fix.
+This wiki teaches Amazon PPC from the ground up. Start with [[1. Foundations & Fundamentals]], then move through [[2. Account & Campaign Architecture]], [[3. Campaign Types]], and [[4. Targeting & Match Types]]. If you want a quick win, go to [[9. Negative Keywords & Negation Strategy]] — cutting wasted spend is often the fastest improvement you can make.
 
 ### Role-based start paths
 

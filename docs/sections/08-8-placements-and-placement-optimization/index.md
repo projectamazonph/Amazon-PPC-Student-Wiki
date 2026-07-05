@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 8. Placements & Placement Optimization
 
-This cluster contains 2 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 2 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 ## Pages in this section
 

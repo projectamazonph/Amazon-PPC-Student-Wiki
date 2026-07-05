@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Brand Analytics includes tools such as Search Query Performance, Market Basket Analysis, Item Comparison, and Repeat Purchase reports where available.
 
-**Explain it to a fresh graduate:** Brand Analytics helps you see market behavior, not just your ad clicks.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use SQP to compare query-level impressions, clicks, cart adds, purchases, and share trends.
-
-**Operator view:** Reports turn raw PPC activity into decisions. The best report explains what happened, why it happened, and what happens next.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Choose the right report for the question.

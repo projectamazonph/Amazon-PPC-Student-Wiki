@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** [[Amazon DSP]] allows programmatic buying across display, video, audio, and streaming inventory using Amazon audience signals.
 
-**Explain it to a fresh graduate:** Sponsored Ads often capture demand. DSP can create and re-engage demand across more placements.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Explain managed service vs. self-service, budget expectations, audience strategy, creative, and measurement.
-
-**Operator view:** DSP is for advanced audience strategy across display, video, audio, and streaming placements. It needs stronger planning than basic Sponsored Ads.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Define audience and funnel stage.

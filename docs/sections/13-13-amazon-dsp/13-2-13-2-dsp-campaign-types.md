@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** DSP campaigns can include display, online video, audio, over-the-top/streaming TV, retargeting, and prospecting.
 
-**Explain it to a fresh graduate:** Retargeting talks to people who already showed interest. Prospecting looks for new likely buyers.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Map campaign type to objective: awareness, consideration, retargeting, loyalty, or category expansion.
-
-**Operator view:** DSP is for advanced audience strategy across display, video, audio, and streaming placements. It needs stronger planning than basic Sponsored Ads.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Define audience and funnel stage.

@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Negative exact blocks one exact query. Negative phrase blocks searches containing that phrase. Negative product targeting blocks specific ASIN targets.
 
-**Explain it to a fresh graduate:** Negatives tell Amazon where not to show the ad. They are the brakes of the account.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use negative exact for precise waste. Use negative phrase for clearly irrelevant word groups. Use product negatives for bad ASIN placements.
-
-**Operator view:** Negative keywords prevent spend on bad traffic or protect clean campaign structure.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Review search terms by spend, clicks, orders, [[ACOS]], and relevance.

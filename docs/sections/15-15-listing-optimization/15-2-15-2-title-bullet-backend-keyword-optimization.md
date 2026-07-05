@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Listings should place important keywords in title, bullets, description/A+, and backend search terms based on relevance and policy.
 
-**Explain it to a fresh graduate:** Keywords help Amazon understand the product. But keyword stuffing makes listings ugly and can hurt trust.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use high-relevance terms naturally. Avoid claims or terms that violate Amazon policy.
-
-**Operator view:** Keywords and search terms reveal shopper language. Your job is to separate discovery from control.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Collect seed keywords from listings, competitors, autocomplete, tools, and reports.

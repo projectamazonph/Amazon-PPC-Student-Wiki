@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Amazon offers rule-based options for budgets and bids in some areas of the console.
 
-**Explain it to a fresh graduate:** Rules are useful for repeatable tasks. They should not run wild without guardrails.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Document trigger, condition, action, cap, owner, and review date for every rule.
-
-**Operator view:** Automation should apply rules consistently, but humans must set the strategy and guardrails.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Define the exact decision rule.

@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 1. Foundations & Fundamentals
 
-This cluster contains 4 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 4 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 ## Pages in this section
 
@@ -23,7 +23,7 @@ This cluster contains 4 wiki page entries. Read it as a mini-module: learn the c
 ## Merged from Complete Data-Filled Guide
 ## Complete data-filled section notes
 
-Amazon PPC means pay-per-click advertising on Amazon. You pay when a shopper clicks the ad, not when the ad merely appears. For a beginner, imagine Amazon as a giant mall and PPC as paying for better shelf placement near where shoppers are already looking.
+Amazon PPC means pay-per-click advertising on Amazon. You pay when a shopper clicks the ad, not when the ad merely appears. Imagine Amazon as a giant mall and PPC as paying for better shelf placement near where shoppers are already looking.
 
 PPC feeds the Amazon growth loop: paid visibility can create sales; sales can improve ranking; better ranking can create more organic visibility; more reviews and stronger conversion can make future ads more efficient. This is why PPC is not only a traffic tool. It is also a learning tool and ranking accelerator.
 
@@ -65,7 +65,7 @@ A campaign is the main container. An ad group is a focused theme inside the camp
 
 ### Common beginner mistake
 
-New operators often think ads can fix a weak product page. Ads can bring traffic, but the listing must still convert. Poor images, high price, bad reviews, or missing Buy Box will wreck performance faster than any bid strategy can save it.
+A common early mistake is thinking ads can fix a weak product page. Ads can bring traffic, but the listing must still convert. Poor images, high price, bad reviews, or missing Buy Box will wreck performance faster than any bid strategy can save it.
 
 ### Operator checklist
 

@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Budgets can be set from the top down as a spend target or bottom up by SKU opportunity and margin.
 
-**Explain it to a fresh graduate:** Budget is not just money available. It is a decision about where growth is allowed to happen.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Protect budget for winners, reserve testing budget for discovery, and avoid spreading small budgets across too many campaigns.
-
-**Operator view:** Budgets control how much opportunity a campaign can capture. A good budget protects cash while feeding proven performers.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Check whether the campaign runs out of budget.

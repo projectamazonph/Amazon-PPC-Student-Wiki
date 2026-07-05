@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 3. Campaign Types
 
-This cluster contains 6 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 6 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 ## Pages in this section
 
@@ -29,7 +29,7 @@ Amazon has several ad types. Each one solves a different job. New sellers should
 
 ### Sponsored Products
 
-Sponsored Products look like normal listings with a `Sponsored` label. They can appear in search results and product detail pages. They are the main direct-sales ad type and are usually the first campaign type beginners learn.
+Sponsored Products look like normal listings with a `Sponsored` label. They can appear in search results and product detail pages. They are the main direct-sales ad type and are usually the first campaign type you will learn.
 
 Auto campaigns let Amazon choose targets using four buckets: Close Match, Loose Match, Substitutes, and Complements. Manual campaigns let you choose keyword, ASIN, or category targets.
 

@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Bids decide how much you are willing to pay for a click. Formulas help keep bids aligned with price, conversion rate, and target [[ACOS]].
 
-**Explain it to a fresh graduate:** A bid is not a guess. It should connect to what a click is worth. If every sale gives little profit, you cannot bid like a billionaire raccoon.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use [[CPC]] max = Price x Target [[ACOS]] x Conversion Rate. Compare to Amazon suggested bids, then start conservatively when data is limited.
-
-**Operator view:** Bids control how aggressively you enter auctions. Bid changes should follow evidence, not mood, caffeine, or panic.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm the target [[ACOS]] or [[ROAS]].

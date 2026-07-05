@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Launch strategy accepts more learning cost to generate data, visibility, and early sales.
 
-**Explain it to a fresh graduate:** A new product has little history. PPC helps test demand, discover terms, and support ranking.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use controlled auto, broad, phrase, exact seed campaigns, product targeting, and careful budget caps.
-
-**Operator view:** Launch strategy balances learning, ranking, reviews, and budget control.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Audit listing readiness.

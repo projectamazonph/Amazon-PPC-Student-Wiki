@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Amazon Marketing Cloud is a privacy-safe clean room used for deeper analytics and audience building across Amazon Ads signals and advertiser inputs.
 
-**Explain it to a fresh graduate:** [[Amazon Marketing Cloud]] is for advanced measurement. It helps answer questions the normal console cannot answer cleanly.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use [[Amazon Marketing Cloud]] when the brand has enough media activity, wants cross-channel attribution, or needs custom audience logic.
-
-**Operator view:** [[Amazon Marketing Cloud]] is a clean-room analytics tool for advanced measurement and audience building. It is not a beginner campaign manager screen.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Define the business question.

@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Amazon can adjust bids using dynamic bids down only, up and down, or fixed bids. Tools can also automate bid changes with rules.
 
-**Explain it to a fresh graduate:** Dynamic bidding means Amazon may lower or raise bids depending on estimated conversion chance. It is helpful, but it should not replace account strategy.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use Down Only for controlled testing, Up and Down for proven high-converting campaigns, Fixed when you need strict control.
-
-**Operator view:** Bids control how aggressively you enter auctions. Bid changes should follow evidence, not mood, caffeine, or panic.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm the target [[ACOS]] or [[ROAS]].

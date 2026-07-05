@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Custom dashboards translate raw data into views for operators, strategists, clients, and executives.
 
-**Explain it to a fresh graduate:** An operator needs details. A CEO needs the story. Do not give both the same 47-column spreadsheet unless you enjoy meetings with sighing.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Build dashboard layers: executive summary, growth drivers, waste, keyword opportunities, budget pacing, action log.
-
-**Operator view:** Reports turn raw PPC activity into decisions. The best report explains what happened, why it happened, and what happens next.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Choose the right report for the question.

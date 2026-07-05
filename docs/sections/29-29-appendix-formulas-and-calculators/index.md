@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 29. Appendix: Formulas & Calculators
 
-This cluster contains 1 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 1 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 Use these formulas as calculators inside the wiki or simulator. Always explain the business meaning beside the math.
 

@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Brand Registry unlocks or improves access to brand features like [[Sponsored Brands]], Stores, brand assets, and A+ Content.
 
-**Explain it to a fresh graduate:** Brand Registry proves you control the brand. Without it, some brand-building ad tools may not be available.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Check trademark, brand ownership, store readiness, and user permissions before planning SB-heavy strategies.
-
-**Operator view:** Brand assets influence trust, conversion, and ad formats available to the account.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm Brand Registry or eligibility.

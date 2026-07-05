@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** Bids should be reviewed on a rhythm, not every time one click happens.
 
-**Explain it to a fresh graduate:** One bad click is not a trend. Changing bids too early is like changing your college major because of one quiz.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use daily checks for spend leaks, weekly for optimization, monthly for strategy. Wait for enough clicks, spend, or orders before major changes.
-
-**Operator view:** Bids control how aggressively you enter auctions. Bid changes should follow evidence, not mood, caffeine, or panic.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Confirm the target [[ACOS]] or [[ROAS]].

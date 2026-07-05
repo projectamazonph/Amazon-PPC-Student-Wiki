@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** This explains how team members add, review, update, and retire pages.
 
-**Explain it to a fresh graduate:** Amazon changes often. A stale PPC wiki is like a map with old roads. It still looks official, but it gets people lost.
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Use page owners, review dates, stale flags, and an approval checklist. Add a changelog template for every update.
-
-**Operator view:** Use this page to understand the decision the topic supports, the data needed before acting, and the safest first move for a beginner.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Read the definition and linked glossary terms.
@@ -31,7 +25,7 @@ status: "draft-ready"
 - Make a small reversible change first when working in a live account.
 - Write down what changed and why.
 
-**Worked mini-example:** A junior operator reviews the page, opens the correct report, checks the required metric, makes one controlled change, and records it in the change log.
+**Worked mini-example:** Open the relevant report, check the key metric, make one small change, and note what you did and why.
 
 **Common beginner mistakes:**
 - Skipping the context and copying tactics blindly.
@@ -48,7 +42,7 @@ status: "draft-ready"
 ## Merged from Complete Data-Filled Guide
 ## Merged beginner guide content
 
-This wiki is the operating manual for learning Amazon PPC from zero. It is written for fresh graduates, virtual assistants, junior strategists, brand owners, and agency teams. A new learner should start with [[1. Foundations & Fundamentals]], then move through [[2. Account & Campaign Architecture]], [[3. Campaign Types]], and [[4. Targeting & Match Types]]. Operators who need a quick win should jump to [[9. Negative Keywords & Negation Strategy]] because wasted spend is often the fastest thing to fix.
+This wiki teaches Amazon PPC from the ground up. Start with [[1. Foundations & Fundamentals]], then move through [[2. Account & Campaign Architecture]], [[3. Campaign Types]], and [[4. Targeting & Match Types]]. If you want a quick win, go to [[9. Negative Keywords & Negation Strategy]] — cutting wasted spend is often the fastest improvement you can make.
 
 ### Role-based start paths
 

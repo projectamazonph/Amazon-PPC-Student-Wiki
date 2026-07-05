@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 28. Glossary & Acronyms
 
-This cluster contains 1 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 1 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 The glossary is the learner safety net. Keep terms short, concrete, and linked to the page where the term becomes operational.
 
@@ -42,7 +42,7 @@ The glossary is the beginner's decoder ring. Every acronym should have a short d
 
 ### Beginner rule
 
-Define every acronym the first time it appears on a page. Do not make a fresh graduate play acronym bingo.
+Define every acronym the first time it appears on a page. Nobody should have to guess what the abbreviations mean.
 
 ### Operator checklist
 

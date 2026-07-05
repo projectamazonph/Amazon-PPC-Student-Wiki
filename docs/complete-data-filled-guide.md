@@ -9,7 +9,7 @@ This page is the consolidated source page for the new beginner-friendly data add
 ## Section 0
 ## Merged beginner guide content
 
-This wiki is the operating manual for learning Amazon PPC from zero. It is written for fresh graduates, virtual assistants, junior strategists, brand owners, and agency teams. A new learner should start with [[1. Foundations & Fundamentals]], then move through [[2. Account & Campaign Architecture]], [[3. Campaign Types]], and [[4. Targeting & Match Types]]. Operators who need a quick win should jump to [[9. Negative Keywords & Negation Strategy]] because wasted spend is often the fastest thing to fix.
+This wiki teaches Amazon PPC from the ground up. Start with [[1. Foundations & Fundamentals]], then move through [[2. Account & Campaign Architecture]], [[3. Campaign Types]], and [[4. Targeting & Match Types]]. If you want a quick win, go to [[9. Negative Keywords & Negation Strategy]] — cutting wasted spend is often the fastest improvement you can make.
 
 ### Role-based start paths
 
@@ -35,7 +35,7 @@ Use this review path for content changes: Draft -> Peer Review -> Senior Strateg
 ## Section 1
 ## Complete data-filled section notes
 
-Amazon PPC means pay-per-click advertising on Amazon. You pay when a shopper clicks the ad, not when the ad merely appears. For a beginner, imagine Amazon as a giant mall and PPC as paying for better shelf placement near where shoppers are already looking.
+Amazon PPC means pay-per-click advertising on Amazon. You pay when a shopper clicks the ad, not when the ad merely appears. Imagine Amazon as a giant mall and PPC as paying for better shelf placement near where shoppers are already looking.
 
 PPC feeds the Amazon growth loop: paid visibility can create sales; sales can improve ranking; better ranking can create more organic visibility; more reviews and stronger conversion can make future ads more efficient. This is why PPC is not only a traffic tool. It is also a learning tool and ranking accelerator.
 
@@ -77,7 +77,7 @@ A campaign is the main container. An ad group is a focused theme inside the camp
 
 ### Common beginner mistake
 
-New operators often think ads can fix a weak product page. Ads can bring traffic, but the listing must still convert. Poor images, high price, bad reviews, or missing Buy Box will wreck performance faster than any bid strategy can save it.
+A common early mistake is thinking ads can fix a weak product page. Ads can bring traffic, but the listing must still convert. Poor images, high price, bad reviews, or missing Buy Box will wreck performance faster than any bid strategy can save it.
 
 ## Section 2
 ## Complete data-filled section notes
@@ -130,7 +130,7 @@ Amazon has several ad types. Each one solves a different job. New sellers should
 
 ### Sponsored Products
 
-Sponsored Products look like normal listings with a `Sponsored` label. They can appear in search results and product detail pages. They are the main direct-sales ad type and are usually the first campaign type beginners learn.
+Sponsored Products look like normal listings with a `Sponsored` label. They can appear in search results and product detail pages. They are the main direct-sales ad type and are usually the first campaign type you will learn.
 
 Auto campaigns let Amazon choose targets using four buckets: Close Match, Loose Match, Substitutes, and Complements. Manual campaigns let you choose keyword, ASIN, or category targets.
 
@@ -194,7 +194,7 @@ Close Match is the safest. Loose Match is broader. Substitutes targets similar p
 ## Section 5
 ## Complete data-filled section notes
 
-Keyword research is how you learn the language customers use. A beginner should not guess forever. Start with common-sense terms, then replace guesses with real search term data.
+Keyword research is how you learn the language customers use. Don't guess forever. Start with common-sense terms, then replace guesses with real search term data.
 
 ### Research methods
 
@@ -781,7 +781,7 @@ The glossary is the beginner's decoder ring. Every acronym should have a short d
 
 ### Beginner rule
 
-Define every acronym the first time it appears on a page. Do not make a fresh graduate play acronym bingo.
+Define every acronym the first time it appears on a page. Nobody should have to guess what the abbreviations mean.
 
 ## Section 29
 ## Complete data-filled section notes

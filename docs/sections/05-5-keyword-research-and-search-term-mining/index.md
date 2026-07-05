@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 5. Keyword Research & Search Term Mining
 
-This cluster contains 4 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 4 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 ## Pages in this section
 
@@ -23,7 +23,7 @@ This cluster contains 4 wiki page entries. Read it as a mini-module: learn the c
 ## Merged from Complete Data-Filled Guide
 ## Complete data-filled section notes
 
-Keyword research is how you learn the language customers use. A beginner should not guess forever. Start with common-sense terms, then replace guesses with real search term data.
+Keyword research is how you learn the language customers use. Don't guess forever. Start with common-sense terms, then replace guesses with real search term data.
 
 ### Research methods
 

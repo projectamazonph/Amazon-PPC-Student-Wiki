@@ -16,13 +16,7 @@ status: "draft-ready"
 
 **What this page teaches:** [[Amazon Marketing Cloud]] can support overlap analysis, path-to-purchase analysis, cross-channel attribution, frequency analysis, and audience creation.
 
-**Explain it to a fresh graduate:** It helps answer questions like: Did DSP exposure improve Sponsored Ads conversion? Are we showing too many ads to the same shoppers?
-
-**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
-
-**What to build into the wiki:** Start with business questions before writing queries. Do not run SQL just because it sounds senior.
-
-**Operator view:** [[Amazon Marketing Cloud]] is a clean-room analytics tool for advanced measurement and audience building. It is not a beginner campaign manager screen.
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.
 
 **Practical workflow:**
 - Define the business question.

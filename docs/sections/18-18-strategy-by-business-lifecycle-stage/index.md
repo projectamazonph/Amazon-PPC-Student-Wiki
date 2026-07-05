@@ -9,7 +9,7 @@ review_cycle: "Quarterly"
 ---
 # 18. Strategy by Business Lifecycle Stage
 
-This cluster contains 4 wiki page entries. Read it as a mini-module: learn the concept, see the operator workflow, then practice with a report, campaign draft, or simulator scenario.
+This cluster contains 4 wiki page entries. Read it as a mini-module: learn the concept, try the workflow, then practice with a report, campaign draft, or simulator scenario.
 
 ## Pages in this section
 
