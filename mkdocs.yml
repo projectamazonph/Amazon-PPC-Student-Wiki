@@ -1,0 +1,186 @@
+site_name: Amazon PPC Wiki — Student Edition
+site_description: Learn Amazon PPC from scratch — a beginner-friendly knowledge base for aspiring Amazon advertising specialists
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Roboto Mono
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Complete Guide: complete-data-filled-guide.md
+  - Glossary: glossary/index.md
+  - Formulas & Calculators: appendix/formulas-calculators.md
+  - Training: training/index.md
+  - "━━━ Start Here ━━━":
+      - "How to Use This Wiki": sections/00-0-front-matter/0-2-0-2-how-to-use-this-wiki.md
+      - "Learning Paths by Role": sections/00-0-front-matter/0-1-0-1-home-landing-page.md
+  - "1. Foundations & Fundamentals":
+      - "Overview": sections/01-1-foundations-and-fundamentals/index.md
+      - "1.1 What is Amazon PPC": sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md
+      - "1.2 The Amazon Advertising Ecosystem": sections/01-1-foundations-and-fundamentals/1-2-1-2-the-amazon-advertising-ecosystem.md
+      - "1.3 Core Terminology Primer": sections/01-1-foundations-and-fundamentals/1-3-1-3-core-terminology-primer.md
+      - "1.4 Eligibility & Prerequisites": sections/01-1-foundations-and-fundamentals/1-4-1-4-eligibility-and-prerequisites.md
+  - "2. Account & Campaign Architecture":
+      - "Overview": sections/02-2-account-and-campaign-architecture/index.md
+      - "2.1 Account Structure Philosophy": sections/02-2-account-and-campaign-architecture/2-1-2-1-account-structure-philosophy.md
+      - "2.2 Campaign Structuring Models": sections/02-2-account-and-campaign-architecture/2-2-2-2-campaign-structuring-models.md
+      - "2.3 Ad Group Best Practices": sections/02-2-account-and-campaign-architecture/2-3-2-3-ad-group-best-practices.md
+      - "2.4 Portfolio & Budget Grouping": sections/02-2-account-and-campaign-architecture/2-4-2-4-portfolio-and-budget-grouping.md
+  - "3. Campaign Types":
+      - "Overview": sections/03-3-campaign-types/index.md
+      - "3.1 Sponsored Products (SP)": sections/03-3-campaign-types/3-1-3-1-sponsored-products-sp.md
+      - "3.2 Sponsored Brands (SB)": sections/03-3-campaign-types/3-2-3-2-sponsored-brands-sb.md
+      - "3.3 Sponsored Display (SD)": sections/03-3-campaign-types/3-3-3-3-sponsored-display-sd.md
+      - "3.4 Sponsored TV / Streaming TV Ads": sections/03-3-campaign-types/3-4-3-4-sponsored-tv-streaming-tv-ads.md
+      - "3.5 Amazon DSP": sections/03-3-campaign-types/3-5-3-5-amazon-dsp.md
+      - "3.6 Cross-Campaign-Type Strategy": sections/03-3-campaign-types/3-6-3-6-cross-campaign-type-strategy.md
+  - "4. Targeting & Match Types":
+      - "Overview": sections/04-4-targeting-and-match-types/index.md
+      - "4.1 Keyword Match Types": sections/04-4-targeting-and-match-types/4-1-4-1-keyword-match-types.md
+      - "4.2 Product Targeting": sections/04-4-targeting-and-match-types/4-2-4-2-product-targeting.md
+      - "4.3 Audience Targeting": sections/04-4-targeting-and-match-types/4-3-4-3-audience-targeting.md
+      - "4.4 Auto-Targeting Categories": sections/04-4-targeting-and-match-types/4-4-4-4-auto-targeting-categories.md
+  - "5. Keyword Research & Search Term Mining":
+      - "Overview": sections/05-5-keyword-research-and-search-term-mining/index.md
+      - "5.1 Research Methodology": sections/05-5-keyword-research-and-search-term-mining/5-1-5-1-research-methodology.md
+      - "5.2 Keyword Research Tools": sections/05-5-keyword-research-and-search-term-mining/5-2-5-2-keyword-research-tools.md
+      - "5.3 Search Term Harvesting Workflow": sections/05-5-keyword-research-and-search-term-mining/5-3-5-3-search-term-harvesting-workflow.md
+      - "5.4 Long-Tail vs. Head Term Strategy": sections/05-5-keyword-research-and-search-term-mining/5-4-5-4-long-tail-vs-head-term-strategy.md
+  - "6. Bidding Strategies & Bid Management":
+      - "Overview": sections/06-6-bidding-strategies-and-bid-management/index.md
+      - "6.1 Manual Bidding Fundamentals": sections/06-6-bidding-strategies-and-bid-management/6-1-6-1-manual-bidding-fundamentals.md
+      - "6.2 Dynamic & Rule-Based Bidding": sections/06-6-bidding-strategies-and-bid-management/6-2-6-2-dynamic-and-rule-based-bidding.md
+      - "6.3 Bid Adjustment Cadence": sections/06-6-bidding-strategies-and-bid-management/6-3-6-3-bid-adjustment-cadence.md
+      - "6.4 Placement Bid Modifiers": sections/06-6-bidding-strategies-and-bid-management/6-4-6-4-placement-bid-modifiers.md
+  - "7. Budget Management & Pacing":
+      - "Overview": sections/07-7-budget-management-and-pacing/index.md
+      - "7.1 Budget Allocation Frameworks": sections/07-7-budget-management-and-pacing/7-1-7-1-budget-allocation-frameworks.md
+      - "7.2 Pacing and Ran Out of Budget Diagnostics": sections/07-7-budget-management-and-pacing/7-2-7-2-pacing-and-ran-out-of-budget-diagnostics.md
+      - "7.3 Seasonal Budget Planning": sections/07-7-budget-management-and-pacing/7-3-7-3-seasonal-budget-planning.md
+  - "8. Placements & Placement Optimization":
+      - "Overview": sections/08-8-placements-and-placement-optimization/index.md
+      - "8.1 Placement Types Explained": sections/08-8-placements-and-placement-optimization/8-1-8-1-placement-types-explained.md
+      - "8.2 Placement Reporting & Diagnosis": sections/08-8-placements-and-placement-optimization/8-2-8-2-placement-reporting-and-diagnosis.md
+  - "9. Negative Keywords & Negation Strategy":
+      - "Overview": sections/09-9-negative-keywords-and-negation-strategy/index.md
+      - "9.1 Negative Match Types": sections/09-9-negative-keywords-and-negation-strategy/9-1-9-1-negative-match-types.md
+      - "9.2 Negation Strategy by Campaign Structure": sections/09-9-negative-keywords-and-negation-strategy/9-2-9-2-negation-strategy-by-campaign-structure.md
+      - "9.3 Common Negation Mistakes": sections/09-9-negative-keywords-and-negation-strategy/9-3-9-3-common-negation-mistakes.md
+  - "10. Metrics, KPIs & Analytics":
+      - "Overview": sections/10-10-metrics-kpis-and-analytics/index.md
+      - "10.1 Core Metrics Deep Dive": sections/10-10-metrics-kpis-and-analytics/10-1-10-1-core-metrics-deep-dive.md
+      - "10.2 Advanced Metrics": sections/10-10-metrics-kpis-and-analytics/10-2-10-2-advanced-metrics.md
+      - "10.3 Health Check Frameworks": sections/10-10-metrics-kpis-and-analytics/10-3-10-3-health-check-frameworks.md
+      - "10.4 Benchmarking": sections/10-10-metrics-kpis-and-analytics/10-4-10-4-benchmarking.md
+  - "11. Reporting & Data Analysis":
+      - "Overview": sections/11-11-reporting-and-data-analysis/index.md
+      - "11.1 Native Amazon Reports": sections/11-11-reporting-and-data-analysis/11-1-11-1-native-amazon-reports.md
+      - "11.2 Brand Analytics": sections/11-11-reporting-and-data-analysis/11-2-11-2-brand-analytics.md
+      - "11.3 Custom Reporting & Dashboards": sections/11-11-reporting-and-data-analysis/11-3-11-3-custom-reporting-and-dashboards.md
+      - "11.4 Data Storytelling": sections/11-11-reporting-and-data-analysis/11-4-11-4-data-storytelling.md
+  - "12. Amazon Marketing Cloud":
+      - "Overview": sections/12-12-amazon-marketing-cloud/index.md
+      - "12.1 What AMC Is and Who Needs It": sections/12-12-amazon-marketing-cloud/12-1-12-1-what-amc-is-and-who-needs-it.md
+      - "12.2 AMC Use Cases": sections/12-12-amazon-marketing-cloud/12-2-12-2-amc-use-cases.md
+      - "12.3 AMC SQL Basics": sections/12-12-amazon-marketing-cloud/12-3-12-3-amc-sql-basics.md
+  - "13. Amazon DSP":
+      - "Overview": sections/13-13-amazon-dsp/index.md
+      - "13.1 DSP Fundamentals": sections/13-13-amazon-dsp/13-1-13-1-dsp-fundamentals.md
+      - "13.2 DSP Campaign Types": sections/13-13-amazon-dsp/13-2-13-2-dsp-campaign-types.md
+      - "13.3 DSP Audience Building": sections/13-13-amazon-dsp/13-3-13-3-dsp-audience-building.md
+      - "13.4 DSP + Sponsored Ads Synergy": sections/13-13-amazon-dsp/13-4-13-4-dsp-plus-sponsored-ads-synergy.md
+  - "14. Brand Presence & Content":
+      - "Overview": sections/14-14-brand-presence-and-content-tie-ins/index.md
+      - "14.1 Brand Registry": sections/14-14-brand-presence-and-content-tie-ins/14-1-14-1-brand-registry.md
+      - "14.2 Brand Store": sections/14-14-brand-presence-and-content-tie-ins/14-2-14-2-brand-store.md
+      - "14.3 A+ Content / Premium A+": sections/14-14-brand-presence-and-content-tie-ins/14-3-14-3-aplus-content-premium-aplus.md
+  - "15. Listing Optimization":
+      - "Overview": sections/15-15-listing-optimization/index.md
+      - "15.1 Why Listing Quality Gates PPC Performance": sections/15-15-listing-optimization/15-1-15-1-why-listing-quality-gates-ppc-performance.md
+      - "15.2 Title, Bullet, Backend Keyword Optimization": sections/15-15-listing-optimization/15-2-15-2-title-bullet-backend-keyword-optimization.md
+      - "15.3 Image & Video Impact on CTR/CVR": sections/15-15-listing-optimization/15-3-15-3-image-and-video-impact-on-ctr-cvr.md
+      - "15.4 Pricing & Promotions Interplay with PPC": sections/15-15-listing-optimization/15-4-15-4-pricing-and-promotions-interplay-with-ppc.md
+  - "16. Automation & Tools":
+      - "Overview": sections/16-16-automation-rules-and-scripts/index.md
+      - "16.1 Native Amazon Automation": sections/16-16-automation-rules-and-scripts/16-1-16-1-native-amazon-automation.md
+      - "16.2 Bulk Operations": sections/16-16-automation-rules-and-scripts/16-2-16-2-bulk-operations.md
+      - "16.3 Custom Scripts & API-Based Automation": sections/16-16-automation-rules-and-scripts/16-3-16-3-custom-scripts-and-api-based-automation.md
+      - "16.4 AI-Augmented PPC Management": sections/16-16-automation-rules-and-scripts/16-4-16-4-ai-augmented-ppc-management.md
+  - "17. Software & Tools Ecosystem":
+      - "Overview": sections/17-17-software-and-tools-ecosystem/index.md
+      - "17.1 All-in-One Suites": sections/17-17-software-and-tools-ecosystem/17-1-17-1-all-in-one-suites.md
+      - "17.2 Point Solutions": sections/17-17-software-and-tools-ecosystem/17-2-17-2-point-solutions.md
+      - "17.3 Build vs. Buy": sections/17-17-software-and-tools-ecosystem/17-3-17-3-build-vs-buy.md
+      - "17.4 Tool Evaluation Framework": sections/17-17-software-and-tools-ecosystem/17-4-17-4-tool-evaluation-framework.md
+  - "18. Strategy by Business Lifecycle":
+      - "Overview": sections/18-18-strategy-by-business-lifecycle-stage/index.md
+      - "18.1 New Product Launch": sections/18-18-strategy-by-business-lifecycle-stage/18-1-18-1-new-product-launch.md
+      - "18.2 Growth Stage": sections/18-18-strategy-by-business-lifecycle-stage/18-2-18-2-growth-stage.md
+      - "18.3 Mature/Steady-State": sections/18-18-strategy-by-business-lifecycle-stage/18-3-18-3-mature-steady-state.md
+      - "18.4 Decline/Sunset": sections/18-18-strategy-by-business-lifecycle-stage/18-4-18-4-decline-sunset.md
+  - "19. Strategy by Product Category":
+      - "Overview": sections/19-19-strategy-by-product-category/index.md
+      - "19.1 High-Consideration / High-Price": sections/19-19-strategy-by-product-category/19-1-19-1-high-consideration-high-price-categories.md
+      - "19.2 Low-Price / Impulse": sections/19-19-strategy-by-product-category/19-2-19-2-low-price-impulse-categories.md
+      - "19.3 Seasonal/Gift": sections/19-19-strategy-by-product-category/19-3-19-3-seasonal-gift-categories.md
+      - "19.4 Regulated Categories": sections/19-19-strategy-by-product-category/19-4-19-4-regulated-categories.md
+  - "20. Seasonal & Event Planning":
+      - "Overview": sections/20-20-seasonal-and-event-planning/index.md
+      - "20.1 Prime Day Playbook": sections/20-20-seasonal-and-event-planning/20-1-20-1-prime-day-playbook.md
+      - "20.2 Q4 / Holiday Playbook": sections/20-20-seasonal-and-event-planning/20-2-20-2-q4-holiday-playbook.md
+      - "20.3 Other Key Dates": sections/20-20-seasonal-and-event-planning/20-3-20-3-other-key-dates.md
+  - "24. Compliance & Account Health":
+      - "Overview": sections/24-24-compliance-policy-and-account-health/index.md
+      - "24.1 Advertising Policy Basics": sections/24-24-compliance-policy-and-account-health/24-1-24-1-advertising-policy-basics.md
+      - "24.2 Account Health Interplay": sections/24-24-compliance-policy-and-account-health/24-2-24-2-account-health-interplay.md
+      - "24.3 Competitor & Ethical Boundaries": sections/24-24-compliance-policy-and-account-health/24-3-24-3-competitor-and-ethical-boundaries.md
+  - "25. Advanced & Emerging Topics":
+      - "Overview": sections/25-25-advanced-and-emerging-topics/index.md
+      - "25.1 Retail Media Network Trends": sections/25-25-advanced-and-emerging-topics/25-1-25-1-retail-media-network-trends.md
+      - "25.2 AI's Growing Role in Amazon Ads": sections/25-25-advanced-and-emerging-topics/25-2-25-2-ai-s-growing-role-in-amazon-ads.md
+      - "25.3 Privacy & Signal Loss": sections/25-25-advanced-and-emerging-topics/25-3-25-3-privacy-and-signal-loss.md
+  - "26. Career & Certification":
+      - "Overview": sections/26-26-career-certification-and-learning/index.md
+      - "26.1 Certifications": sections/26-26-career-certification-and-learning/26-1-26-1-certifications.md
+      - "26.2 Career Pathing": sections/26-26-career-certification-and-learning/26-2-26-2-career-pathing.md
+      - "26.3 Continuing Education": sections/26-26-career-certification-and-learning/26-3-26-3-continuing-education.md
+  - "27. Case Studies & Templates":
+      - "Overview": sections/27-27-case-studies-and-templates/index.md
+      - "27.1 Case Study Template": sections/27-27-case-studies-and-templates/27-1-27-1-case-study-template.md
+      - "27.2 Downloadable Templates": sections/27-27-case-studies-and-templates/27-2-27-2-downloadable-templates.md
+      - "27.3 Real Case Studies": sections/27-27-case-studies-and-templates/27-3-27-3-real-case-studies.md
+  - "Glossary & Reference":
+      - "A-Z Glossary": glossary/index.md
+      - "Formulas & Calculators": appendix/formulas-calculators.md
+      - "Glossary Section": sections/28-28-glossary-and-acronyms/index.md
+      - "Formulas Section": sections/29-29-appendix-formulas-and-calculators/index.md

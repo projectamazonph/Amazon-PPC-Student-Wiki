@@ -1,0 +1,78 @@
+---
+title: "13.2 DSP Campaign Types"
+page_id: "13-2"
+section: "13. Amazon DSP"
+learner_level: "Applied"
+topic_tags: ["dsp"]
+delivery_format: ["self-paced", "instructor-led"]
+estimated_time_minutes: 15
+owner: "PPC Training Team"
+review_cycle: "Quarterly"
+last_verified_against_live_console: null
+source_doc: "Amazon_PPC_Wiki_Fresh_Graduate_Guide_EXPANDED.docx"
+status: "draft-ready"
+---
+# 13.2 DSP Campaign Types
+
+**What this page teaches:** DSP campaigns can include display, online video, audio, over-the-top/streaming TV, retargeting, and prospecting.
+
+**Explain it to a fresh graduate:** Retargeting talks to people who already showed interest. Prospecting looks for new likely buyers.
+
+**Why this matters in real accounts:** This topic affects money, visibility, campaign control, reporting clarity, or team execution. A beginner should understand the business reason before learning the console clicks.
+
+**What to build into the wiki:** Map campaign type to objective: awareness, consideration, retargeting, loyalty, or category expansion.
+
+**Operator view:** DSP is for advanced audience strategy across display, video, audio, and streaming placements. It needs stronger planning than basic Sponsored Ads.
+
+**Practical workflow:**
+- Define audience and funnel stage.
+- Confirm budget, creative, and measurement plan.
+- Separate prospecting from retargeting.
+- Use [[Amazon Marketing Cloud]] or reporting to evaluate overlap and path to purchase.
+- Coordinate DSP learnings with Sponsored Ads strategy.
+
+**Worked mini-example:** DSP prospecting may build audience reach while SP exact captures purchase intent. Together they can support a full-funnel plan.
+
+**Common beginner mistakes:**
+- Launching DSP without enough budget or creative.
+- Comparing DSP prospecting directly against SP exact [[ACOS]].
+- Ignoring frequency and audience overlap.
+
+**Definition of done:**
+- The learner can explain the topic without jargon.
+- The learner can name the report, console area, or data input used for this topic.
+- The learner can describe one safe action, one risky action, and one escalation trigger.
+
+---
+
+## Merged from Complete Data-Filled Guide
+## Complete data-filled section notes
+
+Amazon DSP is Amazon's advanced programmatic ad platform. It can buy display, video, audio, and connected TV ads across Amazon-owned and third-party inventory.
+
+### Sponsored Ads vs DSP
+
+| Sponsored Ads | DSP |
+|---|---|
+| Search and retail-intent focused | Programmatic audience buying |
+| Easier for beginners | Advanced setup and measurement |
+| Direct response heavy | Full-funnel awareness and retargeting |
+| Lower entry point | Higher budget and expertise needed |
+
+### Campaign types
+
+DSP campaigns can include display, video, audio, OTT/connected TV, prospecting, and retargeting. Prospecting reaches new audiences. Retargeting brings back shoppers who already interacted with your brand or category.
+
+### Synergy model
+
+`DSP Awareness -> Sponsored Brands Consideration -> Sponsored Products Conversion -> DSP/SD Retargeting`
+
+Use AMC when possible to understand overlap and incremental impact.
+
+### Operator checklist
+
+- Explain the topic in plain English.
+- Identify the report, console area, or input data needed.
+- Make the smallest safe change first.
+- Log the action, reason, and expected review date.
+- Escalate if the issue touches policy, inventory, account health, or large budget changes.
