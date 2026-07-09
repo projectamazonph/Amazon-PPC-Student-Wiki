@@ -38,6 +38,15 @@ plugins:
 nav:
   - Home: index.md
   - Complete Guide: complete-data-filled-guide.md
+  - Hub Pages:
+      - "Discover & Explore (Start Here)": discover/index.md
+      - "PPC Strategy Hub": strategies/index.md
+      - "Pro Tips & Tactics Hub": tips/index.md
+      - "Tools & Automation Hub": tools/index.md
+      - "Automation & Rules Hub": automation/index.md
+      - "VA Resources Hub": va-resources/index.md
+      - "Online Resources Hub": online-resources/index.md
+      - "Interview Questions Hub": interview-hub/index.md
   - Glossary: glossary/index.md
   - Formulas & Calculators: appendix/formulas-calculators.md
   - Training: training/index.md

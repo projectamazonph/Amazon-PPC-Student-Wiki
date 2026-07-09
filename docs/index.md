@@ -15,6 +15,19 @@ This repo was generated from the expanded Amazon PPC Wiki manual and is designed
 - a training library for VAs and junior strategists,
 - a structured data source for simulators, quizzes, and future tools.
 
+## Quick access — hub pages
+
+Start with the hub pages for guided, curated paths through the wiki content:
+
+- [Discover & Explore](/discover/) — New here? This is the landing page for first-time learners. Learning path, self-assessment, quick wins, and real case studies.
+- [PPC Strategy Hub](/strategies/) — Campaign types, bidding strategies, seasonal playbooks, and advanced tactics.
+- [Pro Tips & Tactics Hub](/tips/) — Battle-tested tactics organized by campaign stage: launch, scale, and optimize. Includes the mistakes that kill ACOS.
+- [Tools & Automation Hub](/tools/) — All-in-one suites, point solutions, build vs. buy framework, and a free tool stack that actually works.
+- [Automation & Rules Hub](/automation/) — When to automate vs. manual, rule-based automation setup, failure modes, and API/webhook workflows.
+- [VA Resources Hub](/va-resources/) — Onboarding guide, SOPs, checklists, and communication templates for VAs managing Amazon PPC.
+- [Online Resources Hub](/online-resources/) — Curated blogs, YouTube channels, podcasts, forums, free courses, and paid programs worth your time.
+- [Interview Questions Hub](/interview-hub/) — Frameworks for the most common Amazon PPC interview questions, with strong answers and red flags.
+
 ## Start here by role
 
 - **Beginner VA:** Start with Sections 1-4, then 5-11, then 22.
