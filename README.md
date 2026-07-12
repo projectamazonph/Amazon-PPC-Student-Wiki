@@ -56,6 +56,26 @@ Open the local URL printed in your terminal.
 
 
 
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Format | Markdown |
+| Generator | MkDocs (Python) |
+| Theme | Material for MkDocs |
+| Hosting | GitHub Pages |
+| Offline | pip + mkdocs serve |
+
+## Quick Start
+
+```bash
+git clone https://github.com/projectamazonph/Amazon-PPC-Student-Wiki.git
+cd Amazon-PPC-Student-Wiki
+pip install -r requirements.txt
+mkdocs serve
+```
+
 ## 📊 Codegraph
 
 See [codegraphs/Amazon-PPC-Student-Wiki.md](./codegraphs/Amazon-PPC-Student-Wiki.md) for the full dependency graph.
