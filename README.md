@@ -54,3 +54,8 @@ Open the local URL printed in your terminal.
 
 [ProjectAmazonPH](https://github.com/projectamazonph) — training Filipino virtual assistants to become Amazon advertising specialists.
 
+
+
+## 📊 Codegraph
+
+See [codegraphs/Amazon-PPC-Student-Wiki.md](./codegraphs/Amazon-PPC-Student-Wiki.md) for the full dependency graph.
