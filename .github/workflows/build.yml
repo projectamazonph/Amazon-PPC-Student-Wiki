@@ -25,31 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-mkdocs:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Build MkDocs site
-        run: |
-          python -m mkdocs build
-
-      - name: Upload MkDocs artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./site
-
-  build-pure-html:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -68,13 +44,13 @@ jobs:
         run: |
           python build_pure_html.py
 
-      - name: Upload pure HTML artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site_pure
 
   deploy:
-    needs: [build-mkdocs, build-pure-html]
+    needs: build
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
