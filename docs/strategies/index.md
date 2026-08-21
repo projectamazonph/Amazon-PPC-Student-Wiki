@@ -17,18 +17,18 @@ These pages in the wiki cover the foundations. Read them in this order:
 
 | Topic | Page | What It Covers |
 |-------|------|----------------|
-| Campaign Types | [Sponsored Products](/sections/03-3-campaign-types/3-1-3-1-sponsored-products-sp.md) | The workhorse of Amazon PPC. Most campaigns start and end here. |
-| Campaign Types | [Sponsored Brands](/sections/03-3-campaign-types/3-2-3-2-sponsored-brands-sb.md) | Brand awareness, headline search ads, when to use SB vs. SP |
-| Campaign Types | [Sponsored Display](/sections/03-3-campaign-types/3-3-3-3-sponsored-display-sd.md) | Audience-based targeting, retargeting, competitor outreach |
-| Campaign Types | [Amazon DSP](/sections/03-3-campaign-types/3-5-3-5-amazon-dsp.md) | Programmatic advertising, off-Amazon audiences, enterprise level |
-| Targeting | [Keyword Match Types](/sections/04-4-targeting-and-match-types/4-1-4-1-keyword-match-types.md) | Broad, phrase, exact — when to use each |
-| Targeting | [Product Targeting](/sections/04-4-targeting-and-match-types/4-2-4-2-product-targeting.md) | ASIN targeting, category targeting, competitor campaigns |
-| Targeting | [Audience Targeting](/sections/04-4-targeting-and-match-types/4-3-4-3-audience-targeting.md) | In-market audiences, lifestyle segments, retargeting audiences |
-| Bidding | [Manual Bidding Fundamentals](/sections/06-6-bidding-strategies-and-bid-management/6-1-6-1-manual-bidding-fundamentals.md) | Your starting point before using any automation |
-| Bidding | [Dynamic and Rule-Based Bidding](/sections/06-6-bidding-strategies-and-bid-management/6-2-6-2-dynamic-and-rule-based-bidding.md) | When to use dynamic bids up/down, and when to write your own rules |
-| Bidding | [Bid Adjustment Cadence](/sections/06-6-bidding-strategies-and-bid-management/6-3-6-3-bid-adjustment-cadence.md) | How often to check and change bids without wasting time |
-| Bidding | [Placement Bid Modifiers](/sections/06-6-bidding-strategies-and-bid-management/6-4-6-4-placement-bid-modifiers.md) | Top of search, product pages, rest of results — adjust by placement |
-| Structure | [Campaign Structuring Models](/sections/02-2-account-and-campaign-architecture/2-2-2-2-campaign-structuring-models.md) | Single keyword campaigns, campaign-per-match-type, hybrid approaches |
+| Campaign Types | [Sponsored Products](../sections/03-3-campaign-types/3-1-3-1-sponsored-products-sp.md) | The workhorse of Amazon PPC. Most campaigns start and end here. |
+| Campaign Types | [Sponsored Brands](../sections/03-3-campaign-types/3-2-3-2-sponsored-brands-sb.md) | Brand awareness, headline search ads, when to use SB vs. SP |
+| Campaign Types | [Sponsored Display](../sections/03-3-campaign-types/3-3-3-3-sponsored-display-sd.md) | Audience-based targeting, retargeting, competitor outreach |
+| Campaign Types | [Amazon DSP](../sections/03-3-campaign-types/3-5-3-5-amazon-dsp.md) | Programmatic advertising, off-Amazon audiences, enterprise level |
+| Targeting | [Keyword Match Types](../sections/04-4-targeting-and-match-types/4-1-4-1-keyword-match-types.md) | Broad, phrase, exact — when to use each |
+| Targeting | [Product Targeting](../sections/04-4-targeting-and-match-types/4-2-4-2-product-targeting.md) | ASIN targeting, category targeting, competitor campaigns |
+| Targeting | [Audience Targeting](../sections/04-4-targeting-and-match-types/4-3-4-3-audience-targeting.md) | In-market audiences, lifestyle segments, retargeting audiences |
+| Bidding | [Manual Bidding Fundamentals](../sections/06-6-bidding-strategies-and-bid-management/6-1-6-1-manual-bidding-fundamentals.md) | Your starting point before using any automation |
+| Bidding | [Dynamic and Rule-Based Bidding](../sections/06-6-bidding-strategies-and-bid-management/6-2-6-2-dynamic-and-rule-based-bidding.md) | When to use dynamic bids up/down, and when to write your own rules |
+| Bidding | [Bid Adjustment Cadence](../sections/06-6-bidding-strategies-and-bid-management/6-3-6-3-bid-adjustment-cadence.md) | How often to check and change bids without wasting time |
+| Bidding | [Placement Bid Modifiers](../sections/06-6-bidding-strategies-and-bid-management/6-4-6-4-placement-bid-modifiers.md) | Top of search, product pages, rest of results — adjust by placement |
+| Structure | [Campaign Structuring Models](../sections/02-2-account-and-campaign-architecture/2-2-2-2-campaign-structuring-models.md) | Single keyword campaigns, campaign-per-match-type, hybrid approaches |
 
 ---
 

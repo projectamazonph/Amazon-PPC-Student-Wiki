@@ -14,7 +14,7 @@ Welcome. This is the landing page for anyone new to Amazon PPC, whether you just
 ## What Do You Want to Do?
 
 **I want to understand what Amazon PPC actually is**
-: Start with [What is Amazon PPC](/sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md). It explains the basics without assuming you know anything about advertising.
+: Start with [What is Amazon PPC](../sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md). It explains the basics without assuming you know anything about advertising.
 
 **I'm ready to set up my first campaigns**
 : Follow the [Learning Path](#learning-path) below step by step. It tells you what to do and in what order.
@@ -35,26 +35,26 @@ Welcome. This is the landing page for anyone new to Amazon PPC, whether you just
 The wiki is organized in numbered sections. Here's the order that actually makes sense to follow:
 
 ### Phase 1: Foundations (Sections 1-2)
-1. [What is Amazon PPC](/sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md) — understand the three ad types (Sponsored Products, Sponsored Brands, Sponsored Display)
-2. [The Amazon Advertising Ecosystem](/sections/01-1-foundations-and-fundamentals/1-2-1-2-the-amazon-advertising-ecosystem.md) — who the players are, how Amazon's algorithm fits in
-3. [Core Terminology Primer](/sections/01-1-foundations-and-fundamentals/1-3-1-3-core-terminology-primer.md) — learn the vocabulary before you try to read about strategy
-4. [Account Structure Philosophy](/sections/02-2-account-and-campaign-architecture/2-1-2-1-account-structure-philosophy.md) — understand how campaigns relate to each other
+1. [What is Amazon PPC](../sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md) — understand the three ad types (Sponsored Products, Sponsored Brands, Sponsored Display)
+2. [The Amazon Advertising Ecosystem](../sections/01-1-foundations-and-fundamentals/1-2-1-2-the-amazon-advertising-ecosystem.md) — who the players are, how Amazon's algorithm fits in
+3. [Core Terminology Primer](../sections/01-1-foundations-and-fundamentals/1-3-1-3-core-terminology-primer.md) — learn the vocabulary before you try to read about strategy
+4. [Account Structure Philosophy](../sections/02-2-account-and-campaign-architecture/2-1-2-1-account-structure-philosophy.md) — understand how campaigns relate to each other
 
 ### Phase 2: Launch Your First Campaigns (Sections 3-4)
-5. [Sponsored Products](/sections/03-3-campaign-types/3-1-3-1-sponsored-products-sp.md) — this is where almost everyone starts
-6. [Keyword Match Types](/sections/04-4-targeting-and-match-types/4-1-4-1-keyword-match-types.md) — understand broad, phrase, and exact before you write your first keyword list
-7. [Product Targeting](/sections/04-4-targeting-and-match-types/4-2-4-2-product-targeting.md) — competitor targeting once you're past the basics
+5. [Sponsored Products](../sections/03-3-campaign-types/3-1-3-1-sponsored-products-sp.md) — this is where almost everyone starts
+6. [Keyword Match Types](../sections/04-4-targeting-and-match-types/4-1-4-1-keyword-match-types.md) — understand broad, phrase, and exact before you write your first keyword list
+7. [Product Targeting](../sections/04-4-targeting-and-match-types/4-2-4-2-product-targeting.md) — competitor targeting once you're past the basics
 
 ### Phase 3: Bidding and Budget (Sections 6-7)
-8. [Manual Bidding Fundamentals](/sections/06-6-bidding-strategies-and-bid-management/6-1-6-1-manual-bidding-fundamentals.md) — learn to bid before you hand control to the algorithm
-9. [Dynamic and Rule-Based Bidding](/sections/06-6-bidding-strategies-and-bid-management/6-2-6-2-dynamic-and-rule-based-bidding.md) — when to let Amazon bid for you
-10. [Budget Allocation Frameworks](/sections/07-7-budget-management-and-pacing/7-1-7-1-budget-allocation-frameworks.md) — don't run out of money mid-day
+8. [Manual Bidding Fundamentals](../sections/06-6-bidding-strategies-and-bid-management/6-1-6-1-manual-bidding-fundamentals.md) — learn to bid before you hand control to the algorithm
+9. [Dynamic and Rule-Based Bidding](../sections/06-6-bidding-strategies-and-bid-management/6-2-6-2-dynamic-and-rule-based-bidding.md) — when to let Amazon bid for you
+10. [Budget Allocation Frameworks](../sections/07-7-budget-management-and-pacing/7-1-7-1-budget-allocation-frameworks.md) — don't run out of money mid-day
 
 ### Phase 4: Optimization (Sections 8-11)
-11. [Placement Types Explained](/sections/08-8-placements-and-placement-optimization/8-1-8-1-placement-types-explained.md) — Amazon search results vs. product pages vs. elsewhere
-12. [Negative Match Types](/sections/09-9-negative-keywords-and-negation-strategy/9-1-9-1-negative-match-types.md) — the single most underrated skill in PPC
-13. [Core Metrics Deep Dive](/sections/10-10-metrics-kpis-and-analytics/10-1-10-1-core-metrics-deep-dive.md) — ACOS, TACOS, RoAS, CTR, CVR — know what each means
-14. [Native Amazon Reports](/sections/11-11-reporting-and-data-analysis/11-1-11-1-native-amazon-reports.md) — where your actual data lives
+11. [Placement Types Explained](../sections/08-8-placements-and-placement-optimization/8-1-8-1-placement-types-explained.md) — Amazon search results vs. product pages vs. elsewhere
+12. [Negative Match Types](../sections/09-9-negative-keywords-and-negation-strategy/9-1-9-1-negative-match-types.md) — the single most underrated skill in PPC
+13. [Core Metrics Deep Dive](../sections/10-10-metrics-kpis-and-analytics/10-1-10-1-core-metrics-deep-dive.md) — ACOS, TACOS, RoAS, CTR, CVR — know what each means
+14. [Native Amazon Reports](../sections/11-11-reporting-and-data-analysis/11-1-11-1-native-amazon-reports.md) — where your actual data lives
 
 ---
 

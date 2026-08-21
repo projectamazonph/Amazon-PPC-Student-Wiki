@@ -1,5 +1,8 @@
 site_name: Amazon PPC Wiki — Student Edition
 site_description: Learn Amazon PPC from scratch — a beginner-friendly knowledge base for aspiring Amazon advertising specialists
+site_url: https://projectamazonph.github.io/Amazon-PPC-Student-Wiki/
+repo_url: https://github.com/projectamazonph/Amazon-PPC-Student-Wiki
+repo_name: projectamazonph/Amazon-PPC-Student-Wiki
 theme:
   name: material
   features:

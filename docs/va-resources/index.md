@@ -18,8 +18,8 @@ This hub is for two audiences: VAs who are new to Amazon PPC, and the people who
 If you're starting with no Amazon PPC experience, work through this sequence before touching any live campaigns:
 
 **Week 1 — Learn the language:**
-1. Read the [What is Amazon PPC](/sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md) page
-2. Read the [Core Terminology Primer](/sections/01-1-foundations-and-fundamentals/1-3-1-3-core-terminology-primer.md)
+1. Read the [What is Amazon PPC](../sections/01-1-foundations-and-fundamentals/1-1-1-1-what-is-amazon-ppc.md) page
+2. Read the [Core Terminology Primer](../sections/01-1-foundations-and-fundamentals/1-3-1-3-core-terminology-primer.md)
 3. Spend 30 minutes in the Amazon Seller Central Ads dashboard — click through every tab and report until nothing looks unfamiliar
 4. Take notes: for each metric you see (ACOS, TACOS, CTR, CVR, impressions, spend, revenue), write down the formula and what a "good" value looks like for that metric
 
