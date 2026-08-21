@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14232f">
+  <meta name="description" content="Amazon PPC Student Wiki - Beginner-friendly knowledge base for Amazon PPC training">
+  <title>Pro Tips & Tactics Hub | Amazon PPC Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --ink:#101820;
+  --muted:#65707a;
+  --paper:#f5f4ef;
+  --white:#fff;
+  --amber:#ffb21c;
+  --gold:#d98400;
+  --navy:#14232f;
+  --line:#d9dcda;
+  --shadow:0 22px 70px #1018201c;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.55 "DM Sans",sans-serif}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:Manrope,sans-serif;line-height:1.08;margin:0}
+h1{font-size:clamp(36px,4vw,56px);letter-spacing:-.03em;margin-bottom:24px}
+h2{font-size:clamp(28px,3vw,38px);margin:32px 0 16px}
+h3{font-size:22px;margin:24px 0 12px}
+p{max-width:720px;margin:0 0 16px;color:var(--muted)}
+ul,ol{margin:0 0 20px;padding-left:24px}
+li{margin-bottom:8px}
+code{background:#e8ebe9;padding:2px 6px;border-radius:4px;font-family:monospace;font-size:14px}
+pre{background:var(--navy);color:#fff;padding:20px;border-radius:12px;overflow-x:auto;margin:20px 0}
+pre code{background:none;padding:0}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--navy);color:white;font-weight:600}
+tr:hover{background:#f8f7f4}
+blockquote{border-left:4px solid var(--amber);margin:20px 0;padding:16px 24px;background:#fff;border-radius:0 12px 12px 0}
+blockquote p{color:var(--ink);margin:0}
+.skip{position:fixed;top:-60px;left:20px;background:var(--ink);color:white;padding:12px;z-index:300}
+.skip:focus{top:12px}
+header{height:70px;padding:0 max(24px,calc((100% - 1200px)/2));display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;background:#f5f4efed;backdrop-filter:blur(13px);border-bottom:1px solid #10182012}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font:800 20px/1 Manrope}
+.brand>i{width:34px;height:34px;background:var(--ink);border-radius:9px;padding:8px;display:flex;align-items:end;gap:3px}
+.brand>i b{width:5px;background:var(--amber);border-radius:2px}
+.brand>i b:first-child{height:45%}
+.brand>i b:nth-child(2){height:72%}
+.brand>i b:last-child{height:100%}
+.brand em{font-style:normal;color:var(--gold)}
+.brand small{display:block;font:500 8px "DM Sans";letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+nav.main-nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+nav.main-nav a{font-size:13px;font-weight:600;padding:8px 12px;border-radius:6px;transition:all .2s}
+nav.main-nav a:hover,nav.main-nav a.active{background:var(--amber);color:var(--ink)}
+nav .git{background:var(--ink);color:white}
+nav .git:hover{background:#263744;color:white}
+.layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 70px)}
+.sidebar{background:white;border-right:1px solid var(--line);padding:24px 0;overflow-y:auto}
+.sidebar-section{margin-bottom:24px}
+.sidebar-section h3{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);padding:0 20px;margin-bottom:12px}
+.sidebar-section ul{list-style:none;padding:0;margin:0}
+.sidebar-section li a{display:block;padding:8px 20px;font-size:14px;color:var(--muted);border-left:3px solid transparent}
+.sidebar-section li a:hover{background:var(--paper);color:var(--ink);border-left-color:var(--amber)}
+.content{padding:40px max(24px,calc((100% - 900px)/2)) 80px;max-width:100%}
+.hero-section{background:radial-gradient(circle at 90% 25%,#ffb21c29,transparent 28%);padding:60px max(24px,calc((100% - 900px)/2));border-bottom:1px solid var(--line)}
+.hero-section h1{margin-bottom:16px}
+.hero-section p{font-size:18px}
+.breadcrumb{padding:12px max(24px,calc((100% - 900px)/2));background:white;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
+.breadcrumb a{color:var(--amber);font-weight:600}
+.stats{display:flex;gap:40px;padding:30px 0;border-top:1px solid var(--line);margin-top:40px}
+.stats>div{display:flex;align-items:center;gap:12px}
+.stats b{font:800 28px Manrope;color:var(--gold)}
+.stats span{font-size:13px;color:var(--muted)}
+.alert{background:#fff8e6;border:1px solid var(--amber);padding:16px 20px;border-radius:12px;margin:20px 0}
+.alert-info{background:#e8f4fc;border-color:#2562a7;color:#2562a7}
+.alert-success{background:#e2f3ec;border-color:#08745a;color:#08745a}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;margin:30px 0}
+.card{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card h3{margin-top:0}
+.card a{color:var(--amber);font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.card a:hover{color:var(--gold)}
+footer{background:var(--navy);color:#bdc5ca;padding:50px max(24px,calc((100% - 1200px)/2)) 24px}
+footer a{color:var(--amber)}
+.foot-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;padding-bottom:30px;border-bottom:1px solid #34424b}
+.foot-top .brand{color:white}
+.foot-bottom{padding-top:20px;font-size:12px;color:#738089}
+@media(max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{display:none}
+  nav.main-nav{display:none}
+}
+@media(max-width:600px){
+  .hero-section{padding:40px 20px}
+  .content{padding:30px 20px}
+  h1{font-size:32px}
+}
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <a class="brand" href="index.html">
+    <i><b></b><b></b><b></b></i>
+    <span>PPC <em>Wiki</em><small>Student Edition</small>
+  </a>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+<a href="complete-data-filled-guide.html">Complete Guide</a>
+<a href="discover.html">Discover & Explore</a>
+<a href="strategies.html">PPC Strategy Hub</a>
+<a href="tips.html">Pro Tips & Tactics</a>
+<a href="tools.html">Tools & Automation</a>
+<a href="automation.html">Automation & Rules</a>
+<a href="va-resources.html">VA Resources</a>
+<a href="online-resources.html">Online Resources</a>
+<a href="interview-hub.html">Interview Questions</a>
+<a href="glossary.html">Glossary</a>
+<a href="appendix/formulas-calculators.html">Formulas & Calculators</a>
+  </nav>
+</header>
+
+
+<div class="hero-section">
+  <h1>Pro Tips & Tactics Hub</h1>
+  <p>Learn Amazon PPC from scratch with this beginner-friendly knowledge base.</p>
+</div>
+<div class="breadcrumb"><a href="index.html">Home</a> &rsaquo; <span>Tips</span></div>
+<main class="content" id="main">
+  <h1 id="pro-tips-tactics-hub">Pro Tips &amp; Tactics Hub</h1>
+<p>Tactics from running real campaigns. No fluff, no generic advice — this is what actually works and what actually breaks.</p>
+<h2 id="launch-phase">Launch Phase</h2>
+<p>The first 30 days set the trajectory for your campaign. Do these things right.</p>
+<h3 id="start-with-auto-but-have-a-plan-for-exiting">Start With Auto — But Have a Plan for Exiting</h3>
+<p>Auto campaigns are the right starting point because you don't know which keywords Amazon will match for your product. But you need to treat them as a research tool, not a permanent solution.</p>
+<p><strong>The 30-day auto exit plan:</strong>
+1. Week 1: Let the auto campaign run without changes. You're building baseline data.
+2. Week 2: Download the search term report. Identify terms that generated 3+ clicks and 0 sales — these are your negative keyword candidates.
+3. Week 3: Move your best-performing exact match terms into a new manual campaign. Keep the auto campaign running.
+4. Week 4: Refine negatives in the auto campaign based on week 2-3 data. Start reducing the auto campaign budget as the manual campaign scales.</p>
+<p><strong>Common mistake:</strong> Running the same auto campaign for 6 months without graduating winning keywords to manual. You end up spending more than you should because auto campaigns are less efficient once you know what you're targeting.</p>
+<h3 id="set-realistic-starting-bids">Set Realistic Starting Bids</h3>
+<p>Don't guess. Use Amazon's suggested bid as a baseline, then:
+- Add 20-30% if you're in a competitive category (supplements, electronics, kitchen)
+- Start at suggested bid if you're in a niche category with lower competition
+- Check the suggested bid <em>range</em> — if it says $0.50-$2.50, start at $1.00 and watch closely</p>
+<p>The most common new advertiser mistake is starting too low because $2.00 per click "feels expensive." If your bid is below the winning threshold, your ad doesn't show at all and you learn nothing.</p>
+<h3 id="match-type-sequencing">Match Type Sequencing</h3>
+<p>Don't run all match types in one campaign. Sequence them:</p>
+<p><strong>Week 1-2:</strong> Auto only
+<strong>Week 3-4:</strong> Add exact match campaigns for your primary keywords
+<strong>Week 5-6:</strong> Add phrase match if exact is performing well
+<strong>Week 7+:</strong> Add broad match only after you have data showing which broad terms generate non-duplicate traffic</p>
+<p>Running all three from day one makes it impossible to attribute results to the right match type.</p>
+<hr />
+<h2 id="scale-phase">Scale Phase</h2>
+<p>Once your campaigns are generating consistent data (30+ days, clear winners and losers), you're in the scale phase.</p>
+<h3 id="dayparting-when-you-can-afford-it">Dayparting: When You Can Afford It</h3>
+<p>If your data shows that conversions cluster in certain hours, dayparting can improve efficiency. Run this analysis before adjusting anything:</p>
+<p><strong>Steps:</strong>
+1. Download the search term report by hour (if your reporting tool supports it)
+2. Identify hours where CTR is above average but spend is below average — this means you're not visible during high-intent hours
+3. Raise bids during those hours, lower them outside</p>
+<p><strong>Honest caveat:</strong> Dayparting requires significant data volume to be meaningful. If you're spending $50/day across 5 campaigns, the hourly splits will be too noisy to act on. Come back to this when you're at $300+/day minimum.</p>
+<h3 id="scale-with-structure-not-more-of-the-same">Scale With Structure, Not More of the Same</h3>
+<p>Scaling doesn't mean adding more keywords to existing campaigns. It means creating new campaigns with a deliberate structure:</p>
+<p><strong>Vertical scaling:</strong> Go deeper into related categories or audiences you haven't targeted yet.</p>
+<p><strong>Horizontal scaling:</strong> Add new product variations or complementary products.</p>
+<p><strong>Geographic scaling:</strong> Expand to new marketplaces (UK, Germany, Canada) once your home market is optimized.</p>
+<h3 id="the-10-bid-rule">The 10% Bid Rule</h3>
+<p>When adjusting bids manually, change by 10-15% at a time. If you change by 50% and something breaks, you won't know if the change caused it or if something else shifted. Small, deliberate changes let you learn from each adjustment.</p>
+<hr />
+<h2 id="optimize-phase">Optimize Phase</h2>
+<p>Optimization is where you close the gap between what your campaigns are doing and what they're capable of doing.</p>
+<h3 id="negative-keyword-hygiene">Negative Keyword Hygiene</h3>
+<p>This is the single highest-leverage optimization action most accounts aren't doing enough of.</p>
+<p><strong>Run this audit weekly:</strong>
+1. Export search term report for the last 14 days
+2. Filter for searches with 5+ clicks and 0 conversions
+3. Add the worst offenders as negative exact match
+4. Filter for searches with TACOS contribution but negative SP spend — these are searches where organic sales exist but PPC is inefficient</p>
+<p><strong>Types of negatives to add:</strong>
+- Brand names you don't own (even if your product is related — you're just helping them)
+- Competitor brand names in most cases (unless you have a deliberate competitor targeting strategy)
+- Irrelevant variants ("men's" when you sell women's, "with battery" when yours doesn't have one)
+- Generic high-impression searches that never convert</p>
+<h3 id="search-term-harvesting">Search Term Harvesting</h3>
+<p>Every 2 weeks, go through your auto campaign search terms and move the winners to manual exact match. This is how you build a growing portfolio of efficient manual campaigns.</p>
+<p><strong>The threshold:</strong> A search term gets moved when it has 3+ conversions and an ACOS below your target. Don't move unprofitable terms just because they convert — you're just moving the problem.</p>
+<h3 id="placement-review">Placement Review</h3>
+<p>Placement data tells you where Amazon is showing your ads. Check this monthly:</p>
+<table>
+<thead>
+<tr>
+<th>Placement</th>
+<th>If You're Overspending</th>
+<th>If You're Underperforming</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Top of search (first page)</td>
+<td>Reduce by 10-15%</td>
+<td>Raise by 20%</td>
+</tr>
+<tr>
+<td>Rest of search</td>
+<td>Usually fine</td>
+<td>Raise by 10%</td>
+</tr>
+<tr>
+<td>Product pages</td>
+<td>Lower CVR here is normal</td>
+<td>If ACOS is 2x average, consider reducing</td>
+</tr>
+<tr>
+<td>On and off Amazon</td>
+<td>Test cautiously</td>
+<td>These placements often need more data</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="mistakes-that-kill-acos">Mistakes That Kill ACOS</h2>
+<p>These are the patterns that consistently produce high ACOS. Avoid them.</p>
+<h3 id="mistake-1-not-tightening-the-knot-early-enough">Mistake 1: Not Tightening the Knot Early Enough</h3>
+<p>When you launch with broad match and a large keyword list, your campaigns spend money across hundreds of irrelevant searches before you add negatives. The problem: that spend doesn't come back. Run tight match types (exact first, phrase second) until you have data. Expand only after you know what works.</p>
+<h3 id="mistake-2-ignoring-tacos">Mistake 2: Ignoring TACOS</h3>
+<p>ACOS measures PPC revenue against PPC spend. TACOS (Total Advertising Cost of Sale) measures PPC spend against all revenue — including organic. If your organic rank is improving because of PPC, your TACOS looks better even if ACOS is the same. Sellers who only watch ACOS often underinvest in PPC when it's actually working.</p>
+<h3 id="mistake-3-chasing-low-acos-at-the-expense-of-revenue">Mistake 3: Chasing Low ACOS at the Expense of Revenue</h3>
+<p>A 5% ACOS sounds amazing. But if it's because you're only bidding $0.10 on keywords with minimal volume, you're leaving money on the table. The goal is profitable growth, not the lowest possible ACOS. Find the sweet spot where your ACOS is within your target range while your total revenue is growing.</p>
+<h3 id="mistake-4-leaving-auto-campaigns-unmanaged">Mistake 4: Leaving Auto Campaigns Unmanaged</h3>
+<p>Auto campaigns accumulate irrelevant search terms over time. Every month that goes by without a negative keyword audit, you're paying for more and more wasted clicks. The solution is simple but not easy: make the negative keyword audit a weekly habit.</p>
+<h3 id="mistake-5-not-matching-bid-to-keyword-intent">Mistake 5: Not Matching Bid to Keyword Intent</h3>
+<p>High-intent searches (exact match for a specific product) deserve higher bids than broad match for general category terms. If you're running both in the same campaign at the same bid, the broad match terms are burning your budget. Separate them or bid them differently.</p>
+<h3 id="mistake-6-campaign-budget-limits-that-cut-off-early">Mistake 6: Campaign Budget Limits That Cut Off Early</h3>
+<p>Check when your campaigns run out of budget each day. If your top-performing campaign hits its limit at 2pm, you're missing the entire afternoon and evening search traffic. Raise the budget or redistribute spend from underperforming campaigns.</p>
+<h3 id="mistake-7-adjusting-bids-based-on-too-little-data">Mistake 7: Adjusting Bids Based on Too Little Data</h3>
+<p>Don't draw conclusions from 3 days of data. If a keyword's ACOS jumped from 20% to 40% in the last 3 days, check whether something changed (new competitor, listing update, review dropped) before cutting the bid. Small sample sizes lead to overcorrection.</p>
+  <div class="stats">
+    <div><b>25+</b><span>Sections</span></div>
+    <div><b>120+</b><span>Pages</span></div>
+    <div><b>100%</b><span>Free</span></div>
+  </div>
+</main>
+
+
+<footer>
+  <div class="foot-top">
+    <a class="brand" href="index.html">
+      <i><b></b><b></b><b></b></i>
+      <span>PPC <em>Wiki</em><small>Student Edition</small>
+    </a>
+    <p>Beginner-friendly Amazon PPC knowledge base</p>
+    <a href="https://github.com/projectamazonph/Amazon-PPC-Student-Wiki">View on GitHub</a>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 ProjectAmazonPH. MIT licensed.</span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14232f">
+  <meta name="description" content="Amazon PPC Student Wiki - Beginner-friendly knowledge base for Amazon PPC training">
+  <title>8.2 Placement Reporting & Diagnosis | Amazon PPC Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --ink:#101820;
+  --muted:#65707a;
+  --paper:#f5f4ef;
+  --white:#fff;
+  --amber:#ffb21c;
+  --gold:#d98400;
+  --navy:#14232f;
+  --line:#d9dcda;
+  --shadow:0 22px 70px #1018201c;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.55 "DM Sans",sans-serif}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:Manrope,sans-serif;line-height:1.08;margin:0}
+h1{font-size:clamp(36px,4vw,56px);letter-spacing:-.03em;margin-bottom:24px}
+h2{font-size:clamp(28px,3vw,38px);margin:32px 0 16px}
+h3{font-size:22px;margin:24px 0 12px}
+p{max-width:720px;margin:0 0 16px;color:var(--muted)}
+ul,ol{margin:0 0 20px;padding-left:24px}
+li{margin-bottom:8px}
+code{background:#e8ebe9;padding:2px 6px;border-radius:4px;font-family:monospace;font-size:14px}
+pre{background:var(--navy);color:#fff;padding:20px;border-radius:12px;overflow-x:auto;margin:20px 0}
+pre code{background:none;padding:0}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--navy);color:white;font-weight:600}
+tr:hover{background:#f8f7f4}
+blockquote{border-left:4px solid var(--amber);margin:20px 0;padding:16px 24px;background:#fff;border-radius:0 12px 12px 0}
+blockquote p{color:var(--ink);margin:0}
+.skip{position:fixed;top:-60px;left:20px;background:var(--ink);color:white;padding:12px;z-index:300}
+.skip:focus{top:12px}
+header{height:70px;padding:0 max(24px,calc((100% - 1200px)/2));display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;background:#f5f4efed;backdrop-filter:blur(13px);border-bottom:1px solid #10182012}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font:800 20px/1 Manrope}
+.brand>i{width:34px;height:34px;background:var(--ink);border-radius:9px;padding:8px;display:flex;align-items:end;gap:3px}
+.brand>i b{width:5px;background:var(--amber);border-radius:2px}
+.brand>i b:first-child{height:45%}
+.brand>i b:nth-child(2){height:72%}
+.brand>i b:last-child{height:100%}
+.brand em{font-style:normal;color:var(--gold)}
+.brand small{display:block;font:500 8px "DM Sans";letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+nav.main-nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+nav.main-nav a{font-size:13px;font-weight:600;padding:8px 12px;border-radius:6px;transition:all .2s}
+nav.main-nav a:hover,nav.main-nav a.active{background:var(--amber);color:var(--ink)}
+nav .git{background:var(--ink);color:white}
+nav .git:hover{background:#263744;color:white}
+.layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 70px)}
+.sidebar{background:white;border-right:1px solid var(--line);padding:24px 0;overflow-y:auto}
+.sidebar-section{margin-bottom:24px}
+.sidebar-section h3{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);padding:0 20px;margin-bottom:12px}
+.sidebar-section ul{list-style:none;padding:0;margin:0}
+.sidebar-section li a{display:block;padding:8px 20px;font-size:14px;color:var(--muted);border-left:3px solid transparent}
+.sidebar-section li a:hover{background:var(--paper);color:var(--ink);border-left-color:var(--amber)}
+.content{padding:40px max(24px,calc((100% - 900px)/2)) 80px;max-width:100%}
+.hero-section{background:radial-gradient(circle at 90% 25%,#ffb21c29,transparent 28%);padding:60px max(24px,calc((100% - 900px)/2));border-bottom:1px solid var(--line)}
+.hero-section h1{margin-bottom:16px}
+.hero-section p{font-size:18px}
+.breadcrumb{padding:12px max(24px,calc((100% - 900px)/2));background:white;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
+.breadcrumb a{color:var(--amber);font-weight:600}
+.stats{display:flex;gap:40px;padding:30px 0;border-top:1px solid var(--line);margin-top:40px}
+.stats>div{display:flex;align-items:center;gap:12px}
+.stats b{font:800 28px Manrope;color:var(--gold)}
+.stats span{font-size:13px;color:var(--muted)}
+.alert{background:#fff8e6;border:1px solid var(--amber);padding:16px 20px;border-radius:12px;margin:20px 0}
+.alert-info{background:#e8f4fc;border-color:#2562a7;color:#2562a7}
+.alert-success{background:#e2f3ec;border-color:#08745a;color:#08745a}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;margin:30px 0}
+.card{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card h3{margin-top:0}
+.card a{color:var(--amber);font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.card a:hover{color:var(--gold)}
+footer{background:var(--navy);color:#bdc5ca;padding:50px max(24px,calc((100% - 1200px)/2)) 24px}
+footer a{color:var(--amber)}
+.foot-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;padding-bottom:30px;border-bottom:1px solid #34424b}
+.foot-top .brand{color:white}
+.foot-bottom{padding-top:20px;font-size:12px;color:#738089}
+@media(max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{display:none}
+  nav.main-nav{display:none}
+}
+@media(max-width:600px){
+  .hero-section{padding:40px 20px}
+  .content{padding:30px 20px}
+  h1{font-size:32px}
+}
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <a class="brand" href="index.html">
+    <i><b></b><b></b><b></b></i>
+    <span>PPC <em>Wiki</em><small>Student Edition</small>
+  </a>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+<a href="complete-data-filled-guide.html">Complete Guide</a>
+<a href="discover.html">Discover & Explore</a>
+<a href="strategies.html">PPC Strategy Hub</a>
+<a href="tips.html">Pro Tips & Tactics</a>
+<a href="tools.html">Tools & Automation</a>
+<a href="automation.html">Automation & Rules</a>
+<a href="va-resources.html">VA Resources</a>
+<a href="online-resources.html">Online Resources</a>
+<a href="interview-hub.html">Interview Questions</a>
+<a href="glossary.html">Glossary</a>
+<a href="appendix/formulas-calculators.html">Formulas & Calculators</a>
+  </nav>
+</header>
+
+
+<div class="hero-section">
+  <h1>8.2 Placement Reporting & Diagnosis</h1>
+  <p>Learn Amazon PPC from scratch with this beginner-friendly knowledge base.</p>
+</div>
+<div class="breadcrumb"><a href="index.html">Home</a> &rsaquo; <span>Sections</span> &rsaquo; <span>08 8 Placements And Placement Optimization</span> &rsaquo; <span>8 2 8 2 Placement Reporting And Diagnosis.Md</span></div>
+<main class="content" id="main">
+  <h1 id="82-placement-reporting-diagnosis">8.2 Placement Reporting &amp; Diagnosis</h1>
+<p><strong>What this page teaches:</strong> Placement reports show performance by placement so you can adjust modifiers.</p>
+<p><strong>Why this matters in real accounts:</strong> This topic affects money, visibility, campaign control, reporting clarity, or team execution. Understanding the business reason first makes the console steps much easier to learn.</p>
+<p><strong>Practical workflow:</strong>
+- Choose the right report for the question.
+- Clean and label the data.
+- Compare against target and previous period.
+- Find the root cause, not only the metric movement.
+- Write the action plan with owner and deadline.</p>
+<p><strong>Worked mini-example:</strong> Instead of saying [[ACOS]] rose from 25% to 32%, explain that [[CPC]] rose on two non-branded exact campaigns while conversion dropped after price increased.</p>
+<p><strong>Common beginner mistakes:</strong>
+- Sending tables without interpretation.
+- Mixing attribution windows or date ranges.
+- Reporting only ad metrics when stakeholders need business impact.</p>
+<p><strong>Definition of done:</strong>
+- The learner can explain the topic without jargon.
+- The learner can name the report, console area, or data input used for this topic.
+- The learner can describe one safe action, one risky action, and one escalation trigger.</p>
+<hr />
+<h2 id="merged-from-complete-data-filled-guide">Merged from Complete Data-Filled Guide</h2>
+<h2 id="complete-data-filled-section-notes">Complete data-filled section notes</h2>
+<p>Placement optimization controls where your ads appear. The three main Sponsored Products placements are Top of Search, Rest of Search, and Product Detail Pages.</p>
+<table>
+<thead>
+<tr>
+<th>Placement</th>
+<th>Typical behavior</th>
+<th>Operator note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Top of Search</td>
+<td>High visibility, high CPC, often high CVR</td>
+<td>Worth bidding up only when efficient</td>
+</tr>
+<tr>
+<td>Rest of Search</td>
+<td>Middle ground</td>
+<td>Often stable and scalable</td>
+</tr>
+<tr>
+<td>Product Detail Pages</td>
+<td>Lower intent, cheaper clicks</td>
+<td>Useful for conquesting and cross-sell</td>
+</tr>
+</tbody>
+</table>
+<h3 id="diagnosis-workflow">Diagnosis workflow</h3>
+<ol>
+<li>Pull the Placement Report.</li>
+<li>Compare ACOS, CTR, CVR, CPC, and sales by placement.</li>
+<li>Increase modifier where ACOS is below target and volume is limited.</li>
+<li>Reduce modifier where CPC is high and CVR is weak.</li>
+<li>Recheck after enough data, not the next morning.</li>
+</ol>
+<h3 id="worked-example">Worked example</h3>
+<p>If Top of Search ACOS is 25%, Rest of Search is 35%, and Product Pages is 45%, increase Top of Search modestly, leave Rest alone, and reduce Product Pages or keep it conservative.</p>
+<h3 id="operator-checklist">Operator checklist</h3>
+<ul>
+<li>Explain the topic in plain English.</li>
+<li>Identify the report, console area, or input data needed.</li>
+<li>Make the smallest safe change first.</li>
+<li>Log the action, reason, and expected review date.</li>
+<li>Escalate if the issue touches policy, inventory, account health, or large budget changes.</li>
+</ul>
+  <div class="stats">
+    <div><b>25+</b><span>Sections</span></div>
+    <div><b>120+</b><span>Pages</span></div>
+    <div><b>100%</b><span>Free</span></div>
+  </div>
+</main>
+
+
+<footer>
+  <div class="foot-top">
+    <a class="brand" href="index.html">
+      <i><b></b><b></b><b></b></i>
+      <span>PPC <em>Wiki</em><small>Student Edition</small>
+    </a>
+    <p>Beginner-friendly Amazon PPC knowledge base</p>
+    <a href="https://github.com/projectamazonph/Amazon-PPC-Student-Wiki">View on GitHub</a>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 ProjectAmazonPH. MIT licensed.</span>
+  </div>
+</footer>
+</body>
+</html>
